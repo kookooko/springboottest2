@@ -36,7 +36,6 @@ public class UserAndCustomerController {
     }*/
     @RequestMapping("/saveall")
     public void findUser2() {
-        customerService.addCustomer(new Customer("lisi", "123456789"));
         userService.addUser(new User("hahaha", "123", "fjieow@fk", new Date()));
     }
 }
