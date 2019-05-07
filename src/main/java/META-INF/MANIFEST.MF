@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Class-Path: spring-core-4.3.13.RELEASE.jar jul-to-slf4j-1.7.25.jar jso
+ n-smart-2.2.1.jar spring-test-4.3.13.RELEASE.jar tomcat-jdbc-8.5.23.j
+ ar transactions-3.9.3.jar mybatis-spring-boot-autoconfigure-2.0.0.jar
+  javax.transaction-api-1.2.jar transactions-jdbc-3.9.3.jar spring-boo
+ t-test-1.5.9.RELEASE.jar log4j-over-slf4j-1.7.25.jar spring-boot-star
+ ter-freemarker-1.5.9.RELEASE.jar mybatis-spring-2.0.0.jar spring-boot
+ -starter-logging-1.5.9.RELEASE.jar accessors-smart-1.1.jar mysql-conn
+ ector-java-5.1.44.jar logback-classic-1.1.11.jar spring-boot-autoconf
+ igure-1.5.9.RELEASE.jar spring-context-4.3.13.RELEASE.jar spring-boot
+ -starter-log4j-1.3.8.RELEASE.jar spring-boot-starter-jdbc-1.5.9.RELEA
+ SE.jar spring-boot-starter-test-1.5.9.RELEASE.jar mockito-core-1.10.1
+ 9.jar atomikos-util-3.9.3.jar slf4j-api-1.7.25.jar asm-5.0.3.jar log4
+ j-1.2.17.jar transactions-api-3.9.3.jar mybatis-3.5.0.jar freemarker-
+ 2.3.27-incubating.jar spring-tx-4.3.13.RELEASE.jar hamcrest-library-1
+ .3.jar hamcrest-core-1.3.jar tomcat-annotations-api-8.5.23.jar spring
+ -beans-4.3.13.RELEASE.jar spring-webmvc-4.3.13.RELEASE.jar spring-exp
+ ression-4.3.13.RELEASE.jar transactions-jta-3.9.3.jar hibernate-valid
+ ator-5.3.6.Final.jar spring-aop-4.3.13.RELEASE.jar spring-web-4.3.13.
+ RELEASE.jar tomcat-embed-websocket-8.5.23.jar jsonassert-1.4.0.jar sp
+ ring-boot-starter-tomcat-1.5.9.RELEASE.jar spring-jdbc-4.3.13.RELEASE
+ .jar spring-context-support-4.3.13.RELEASE.jar spring-boot-test-autoc
+ onfigure-1.5.9.RELEASE.jar jackson-core-2.8.10.jar spring-boot-starte
+ r-aop-1.5.9.RELEASE.jar objenesis-2.1.jar snakeyaml-1.17.jar tomcat-e
+ mbed-core-8.5.23.jar json-path-2.2.0.jar classmate-1.3.4.jar mybatis-
+ spring-boot-starter-2.0.0.jar spring-boot-starter-jta-atomikos-1.5.9.
+ RELEASE.jar jackson-annotations-2.8.0.jar transactions-jms-3.9.3.jar 
+ aspectjweaver-1.8.13.jar tomcat-juli-8.5.23.jar spring-boot-1.5.9.REL
+ EASE.jar assertj-core-2.6.0.jar tomcat-embed-el-8.5.23.jar validation
+ -api-1.1.0.Final.jar spring-boot-starter-web-1.5.9.RELEASE.jar spring
+ -boot-starter-1.5.9.RELEASE.jar logback-core-1.1.11.jar android-json-
+ 0.0.20131108.vaadin1.jar jcl-over-slf4j-1.7.25.jar jackson-databind-2
+ .8.10.jar jboss-logging-3.3.1.Final.jar
+Main-Class: com.lu.App
+
