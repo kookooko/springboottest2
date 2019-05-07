@@ -5,6 +5,7 @@ import com.lu.test1.model.User;
 import com.lu.test1.service.UserService;
 import com.lu.test2.mapper.CustomerMapper;
 import com.lu.test2.model.Customer;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -23,11 +24,10 @@ public class UserServiceImpl implements UserService {
         return userMapper.findUserById3(id);
     }
 
-
     @Override
     public void addUser(User user) {
         customerMapper.addCustomer(new Customer("lisi", "123456789"));
-        int a=1/0;
+        //int a=1/0;
         userMapper.addUser(user);
         //int a=1/0;
     }

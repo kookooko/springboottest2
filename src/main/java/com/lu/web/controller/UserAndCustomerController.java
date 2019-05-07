@@ -4,6 +4,7 @@ import com.lu.test1.model.User;
 import com.lu.test1.service.UserService;
 import com.lu.test2.model.Customer;
 import com.lu.test2.service.CustomerService;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -34,8 +35,11 @@ public class UserAndCustomerController {
     /*public static void main(String[] args) {
         SpringApplication.run(UserController.class,args);
     }*/
+
+
     @RequestMapping("/saveall")
     public void findUser2() {
+
         userService.addUser(new User("hahaha", "123", "fjieow@fk", new Date()));
     }
 }
