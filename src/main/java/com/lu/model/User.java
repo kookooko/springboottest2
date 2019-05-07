@@ -1,16 +1,22 @@
 package com.lu.model;
 
+import java.util.Date;
+
 public class User {
     private Integer id;
     private String username;
-    private String password;
+    private Date birthday;
+    private String sex;
+    private String address;
 
     public User() {
     }
 
-    public User(String username, String password) {
+    public User(String username, Date birthday, String sex, String address) {
         this.username = username;
-        this.password = password;
+        this.birthday = birthday;
+        this.sex = sex;
+        this.address = address;
     }
 
     public Integer getId() {
@@ -29,12 +35,28 @@ public class User {
         this.username = username;
     }
 
-    public String getPassword() {
-        return password;
+    public Date getBirthday() {
+        return birthday;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     @Override
@@ -42,7 +64,9 @@ public class User {
         return "User{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
+                ", birthday='" + birthday + '\'' +
+                ", sex='" + sex + '\'' +
+                ", address='" + address + '\'' +
                 '}';
     }
 }

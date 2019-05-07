@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @ComponentScan(basePackages = "com.lu")
 @EnableAutoConfiguration
+@MapperScan(basePackages = "com.lu.mapper")
 public class App {
     public static void main(String[] args) {
         SpringApplication.run(App.class);

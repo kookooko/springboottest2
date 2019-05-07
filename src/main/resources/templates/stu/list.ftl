@@ -5,6 +5,7 @@
     <title>Title</title>
 </head>
 <body>
+<#--
 我是${username}
 <#if (age>10)>大帅哥</#if>
 <table border="1px" width="200px">
@@ -22,5 +23,10 @@
 
     </#list>
 </table>
+-->
+
+<hr>
+<br>
+<img src="${request.contextPath}/imgs/ludashi.jpg" width="300px" height="100px">
 </body>
 </html>
